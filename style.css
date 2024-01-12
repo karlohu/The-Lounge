@@ -26,9 +26,10 @@ body {
     margin-left: 10%;
     margin-top: 2%;
     margin-bottom: 0;
+    margin-right: 50px;
     font-size: 120px;
     line-height: 112px;
-    min-width: 400px
+    min-width: 500px
 }
 
 .sub {
