@@ -74,11 +74,7 @@ body {
 
 
 img{
-    margin: 20px;
-    
-    color: transparent;
-    mask-image: url(photos/simple-logo.png);
-    
+    margin: 20px;   
 }
 
 .navbar{
