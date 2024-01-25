@@ -1,6 +1,8 @@
 html{
     font-family: "poppins";
+    height: min-content;
 }
+
 
 body {
     background: url(photos/background18-75.png) no-repeat;
@@ -12,8 +14,8 @@ body {
     font-weight: 400;
     line-height: 1.5;
     text-align: left;
-    height: 100%;
-    overflow: hidden;
+    padding-bottom: 0px;
+    
 }
 
 
@@ -127,5 +129,5 @@ img{
 
 @media only screen and (max-width: 767px) {
     body {
-      background-size: 100% auto;
+      background-size: 100% cover;
     }
