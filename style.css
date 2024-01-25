@@ -3,7 +3,9 @@ html{
 }
 
 body {
-    background-color: #101010;
+    background: url(photos/background18-75.png) no-repeat;
+    background-position: center;
+    background-size: cover;
     color: #ffffff;
     margin: 0;
     font-size: 1rem;
@@ -61,7 +63,7 @@ body {
 }
 
 .header {
-    background-color: #101010;
+  
     color: #ffffff;
     display: flex;
     justify-content: space-between; 
@@ -73,9 +75,9 @@ body {
 
 img{
     margin: 20px;
-    background: linear-gradient(145deg, rgba(248,31,1,1) 27%, rgba(255,48,141,1) 100%);
+    
     color: transparent;
-    mask-image: url(photos/logo.svg);
+    mask-image: url(photos/simple-logo.png);
     
 }
 
@@ -93,7 +95,6 @@ img{
     margin: 20px 15px;
     color:#c6c9d8;
     font-family: fantasy;
-    background-color: #101010;
     
 }
 
