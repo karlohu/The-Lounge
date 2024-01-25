@@ -1,8 +1,5 @@
 html{
     font-family: "poppins";
-    height: 100%;
-    margin: 0;
-    overflow: hidden;
 }
 
 body {
@@ -15,7 +12,7 @@ body {
     font-weight: 400;
     line-height: 1.5;
     text-align: left;
-    
+    height: 100%;
     overflow: hidden;
 }
 
