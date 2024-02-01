@@ -4,13 +4,14 @@ body {
     background: url(photos/background18-75.png) no-repeat;
     background-position: center;
     background-size: cover;
+    overflow: hidden;
     margin: 0;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
     text-align: left;
     padding-bottom: 0px;
-    overflow: hidden;
+    
 }
 
 
@@ -86,6 +87,7 @@ img{
     margin-top: 0px;
     margin-right: 0vw;
     min-width: 25rem;
+    flex-wrap: wrap;
 }
 
 .navbar a{ 
@@ -125,4 +127,3 @@ img{
     margin-bottom: 0px;
     padding-bottom: 0px;
 }
-
