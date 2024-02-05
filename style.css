@@ -60,9 +60,9 @@ body {
     text-align: left;
     margin-left: 10vw;
     margin-right: 71vw;
-    margin-top: 15vh;
+    margin-top: 5vh;
     min-width: 20rem;
-    margin-bottom: 20vh;
+    margin-bottom: 18vh;
 
     
 }
@@ -77,6 +77,39 @@ body {
     min-width: 20rem;
 }
 
+.button {
+    display: inline-flex;
+    height: 4rem;
+    outline: none;
+    border: none;
+    background: transparent;
+    color: #c6c9d8;
+    font-size: 2rem;
+    cursor: pointer;
+    margin-left: 60vw;
+    align-items: center;
+    text-decoration: none;
+
+    
+}
+
+.button a {
+    min-width: 180px;
+    align-items: center;
+    display: inline-flex;
+    color: #c6c9d8;
+    height: 3rem;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 8px;
+    border-style: solid;
+    
+}
+
+.button :hover {
+    background-color: #c6c9d8 ;
+    color: black;
+}
 
 img{
     margin: 20px;
@@ -98,8 +131,6 @@ img{
     margin: 20px 15px;
     color:#c6c9d8;
     text-decoration: solid;
-    
-    
 }
 
 .navbar a:hover { 
@@ -123,7 +154,6 @@ img{
     opacity: .25;
     color:#c6c9d8;
     font-size: 13px;
-    margin-top: 10vh;
     margin-bottom: 0px;
     padding-bottom: 0px;
 }
