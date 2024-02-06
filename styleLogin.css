@@ -21,7 +21,7 @@ section {
 
 .form-box {
     width: 400px;
-    height: 4vh;
+    height: 40vh;
     background: transparent;
     border: 2px solid rgba(255, 255, 255, 0.5);
     border-radius: 20px;
@@ -31,6 +31,10 @@ section {
     align-items: center;
     
 }
+
+img{
+    margin: 20px;
+ }
 
 h2 {
     font-size: 2em;
@@ -190,5 +194,5 @@ button {
     margin-bottom: 0px;
     padding-bottom: 0px;
     margin-bottom: 0px;
-    margin-top: 28vh;
+    margin-top: 30vh;
 }
