@@ -1,15 +1,18 @@
 
 body {
     font-family: 'poppins'; 
-    background: url(photos/background18-75.png) no-repeat;
+    background: url(photos/background18-75.webp) no-repeat;
     background-position: center;
     background-size: cover;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
     padding-bottom: 0px;
-    margin: 0px;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
 }
 
 section {
@@ -187,12 +190,16 @@ button {
 
 .footer{
     display: block;
-    text-align: center;
     opacity: .25;
     color:#c6c9d8;
     font-size: 13px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-    margin-top: 30vh;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    flex-shrink: 0;
+    background-color: transparent;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
 }

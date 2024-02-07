@@ -1,0 +1,171 @@
+
+.App-logo{
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+}
+
+body {
+  font-family: 'poppins'; 
+  background: url(photos/background18-75.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  padding-bottom: 0px;
+  margin: 0px;
+  overflow: hidden; 
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+
+
+
+.gradient-text {
+ 
+  background: linear-gradient(145deg, #f81f01 20%, #ff308d 60%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+
+
+.title {
+  text-align: left;
+  font-weight: 900;
+  margin-left: 10vw;
+  margin-top: 4vh;
+  margin-bottom: 0;
+  margin-right: 40vw;
+  font-size: 7.5rem;
+  line-height: 7rem;
+  min-width: 30rem;
+}
+
+.sub {
+  font-family: 'poppins';
+  text-align: left;
+  font-weight: 400;
+  margin-left: 10vw;
+  margin-top: 3vh;
+  font-size: 4rem;
+  line-height: 3.5rem;
+  min-width: 30rem;
+}
+
+.text {
+  
+  display: flex;
+  opacity: .75;
+  color:#c6c9d8;
+  font-size: 1rem;
+  line-height: 2rem;
+  font-weight: 100;
+  text-align: left;
+  margin-left: 10vw;
+  margin-right: 71vw;
+  margin-top: 10vh;
+  min-width: 20rem;
+  margin-bottom: 12vh;
+
+  
+}
+
+.header {
+
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 50px;
+  min-width: 20rem;
+}
+
+.button {
+  display: inline-flex;
+  height: 4rem;
+  outline: none;
+  border: none;
+  background: transparent;
+  color: #c6c9d8;
+  font-size: 2rem;
+  cursor: pointer;
+  margin-left: 60vw;
+  align-items: center;
+  text-decoration: none;
+
+  
+}
+
+.button a {
+  min-width: 180px;
+  align-items: center;
+  display: inline-flex;
+  color: #c6c9d8;
+  height: 3rem;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 8px;
+  border-style: solid;
+  
+}
+
+.button :hover {
+  background-color: #c6c9d8 ;
+  color: black;
+}
+
+
+.navbar{
+  text-align: top;
+  margin-top: 0px;
+  margin-right: 0vw;
+  min-width: 25rem;
+  flex-wrap: wrap;
+}
+
+.navbar a{ 
+  font-family: 'fantasy';
+  line-height: 10px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  margin: 20px 15px;
+  color:#c6c9d8;
+  text-decoration: solid;
+}
+
+.navbar a:hover { 
+  background: linear-gradient(145deg, #f81f01 20%, #ff308d 60%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+#support{
+  border-color: #c6c9d8;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 10px;
+  padding: 3px;
+}
+
+.footer{
+      display: block;
+      opacity: .25;
+      color:#c6c9d8;
+      font-size: 13px;
+      align-items: center;
+      justify-content: center;
+      width:100%;
+      flex-shrink: 0;
+      background-color: transparent;
+      text-align: center;
+      padding: 10px 0;
+      position: fixed;
+      bottom: 0;
+}
