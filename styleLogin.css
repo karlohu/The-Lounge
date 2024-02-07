@@ -8,7 +8,6 @@ body {
     font-weight: 400;
     line-height: 1.5;
     padding-bottom: 0px;
-    overflow: hidden;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -24,7 +23,7 @@ section {
 
 .form-box {
     width: 400px;
-    height: 40vh;
+    height: 450px;
     background: transparent;
     border: 2px solid rgba(255, 255, 255, 0.5);
     border-radius: 20px;
