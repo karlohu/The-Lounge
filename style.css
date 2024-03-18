@@ -48,6 +48,7 @@ body {
     font-size: 4rem;
     line-height: 3.5rem;
     min-width: 30rem;
+    flex-direction: row;
 }
 
 .text {
@@ -64,6 +65,7 @@ body {
     margin-top: 5%;
     min-width: 20rem;
     margin-bottom: 12vh;
+    flex-direction: column;
 
     
 }
